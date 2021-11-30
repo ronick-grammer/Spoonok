@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 import SnapKit
 
-private let headerIdentifier = "ProfileHeader"
-private let gridCellIdentifier = "ProfileCell"
-
 class ProfileViewController: UICollectionViewController {
+    
+    private let headerIdentifier = "ProfileHeader"
+    private let gridCellIdentifier = "ProfileCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
